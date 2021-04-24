@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 50;
+}
+
+section img {
+    background-image:url(../images/unnamed.jpg);
+    width: 25%;
+    margin: 0;
+    padding: 10px 20px 10px 0px;
+    background-color: turquoise;
+}
+
+section {
+    background-color: turquoise;
+    margin: 0;
+    font-size: 50;
+}
+section h2 {
+    margin: 0;
+    background-color: dimgrey;
+    padding: 0px 20px 10px 20px;
+    text-align: center;
+    border-bottom: turquoise;
+}
+
