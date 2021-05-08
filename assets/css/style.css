@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #bdbdc0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0; 
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #3f3c3c;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: #3f3c3c;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px #00000080;
+}
+
+header nav ul li a:hover {
+    background: #a293ff;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+}
+/*end header*/
+
+/*About me*/
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: center;
+}
+
+.info div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: center;
+}
+
+.info h2 {
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.info p {
+    font-size: 16px;
+    font-weight: italic;
+    display: inline-block;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: center;
+}
