@@ -5,12 +5,11 @@
 }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/*Header*/
 header {
     padding: 20px 35px;
     background-color: #bdbdc0;
@@ -67,31 +66,53 @@ header nav ul li a:hover {
 /*About me*/
 
 .info {
+    padding: 0 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: center;
 }
 
 .info div {
+    margin: 0;
+    height: 400px;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     flex-wrap: center;
 }
 
 .info h2 {
-    font-size: 32px;
+    font-size: 32;
     font-weight: bold;
-    display: inline-block;
+    text-align: center;
+    
 }
 
 .info p {
     font-size: 16px;
     font-weight: italic;
-    display: inline-block;
+    color: #a293ff;
+    width: 80%;
+    height: 600px;
+    text-align:left;
+}
+/*End about me*/
+
+/*portfolio*/
+.portfolio {
+    height: 400px;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.flex-row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: center;
+.portfolio h2 {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio div img {
+
 }
