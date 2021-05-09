@@ -5,35 +5,45 @@
 }
 
 body {
-    color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
+    color: #71ff71;
+}
+
+section {
+    background-color: #adcaad;
 }
 
 /*Header*/
 header {
     padding: 20px 35px;
-    background-color: #bdbdc0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: -webkit-sticky;
     position: sticky;
     top: 0; 
-    background-attachment: fixed;
-    background-position: 80%;
+    background-image: url(../images/spacebar.jpg);
+    background-attachment: center;
+    background-position:5px;
+    height: 110px;
+    color: ##71ff71;
+    text-shadow: 0 0 10px rgb(169, 207, 169);
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
-    color: #3f3c3c;
+    font-size: 64px;
+    color: ##71ff71;
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgb(169, 207, 169);
 }
 
+header h2 {
+    padding: 40px;
+}
 header a {
     text-decoration: none;
-    color: #3f3c3c;
+    color: #71ff71;
 }
 
 header nav {
@@ -58,7 +68,8 @@ header nav ul li a {
 header nav ul li a:hover {
     background: #a293ff;
     color: #024e76;
-    border-radius: 15px;
+    padding: 5px;
+    border-radius: 5px;
     text-shadow: none;
 }
 /*end header*/
@@ -72,27 +83,10 @@ header nav ul li a:hover {
     flex-wrap: center;
 }
 
-.info div {
-    margin: 0;
-    height: 400px;
-    padding: 20px 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: center;
-}
-
-.info h2 {
-    font-size: 32;
-    font-weight: bold;
-    text-align: center;
-    
-}
-
-.info p {
+.about p {
+    padding: 0 24px;
     font-size: 16px;
-    font-weight: italic;
     color: #a293ff;
-    width: 80%;
     height: 600px;
     text-align:left;
 }
