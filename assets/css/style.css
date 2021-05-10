@@ -6,6 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color:#9e9e99ce;
 }
 
 section {
@@ -94,6 +95,7 @@ aside h2 {
     padding: 35px 0;
     font-size:36px;
 }
+/*end aside*/
 
 section {
     padding: 30px;
@@ -144,13 +146,95 @@ div img {
 .info {
     font-size: 32px;
     color:#1f30c7;
-    flex: 12;
-    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
 }
 /*End about me*/
 
 /*portfolio*/
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
 
+.main-project {
+    width: 80%;
+
+}
 /*end portfolio*/
 
 /*Contact me*/
+.contacts {
+    height: 500px;
+    background-color: #9e9e99ce;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.contacts h2 {
+    font-weight: bold;
+    font-size: 48px;
+    color: ##71ff71;
+    margin: 0;
+    text-shadow: 0 0 10px rgb(169, 207, 169);
+}
+
+.contacts nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+/*End contact me*/
+
+/*media queries*/
+@media screen and (max-width 980px) {
+    main {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    main h1 {
+        width: 100%;
+        text-align: center;
+    } 
+
+    main nav ul {
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main nav ul li a {
+        font-size: 20px;
+    }
+
+    aside {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    aside h2 {
+        width: 100%;
+        text-align:center;
+    }
+
+    .bio {
+        flex: 1 100%;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .info p {
+        text-align: center;
+        justify-content:flex-start;
+    }
+}
