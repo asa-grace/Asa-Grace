@@ -6,7 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: #71ff71;
+    
 }
 
 section {
@@ -39,10 +39,13 @@ header h1 {
 }
 
 header h2 {
-    padding: 40px;
+    padding: 20px;
+    color:#71ff71;
+    font-size: 32px;
+    text-shadow: 0 0 10px rgb(169, 207, 169);
 }
+
 header a {
-    text-decoration: none;
     color: #71ff71;
 }
 
@@ -74,39 +77,75 @@ header nav ul li a:hover {
 }
 /*end header*/
 
-/*About me*/
-
-.info {
-    padding: 0 25px;
+section {
+    padding: 30px;
+    background-color: lightgrey;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: center;
+    justify-content: space-around;
 }
 
-.about p {
-    padding: 0 24px;
-    font-size: 16px;
-    color: #a293ff;
-    height: 600px;
-    text-align:left;
+.section-title {
+    font-size: 36px;
+    color:#71ff71;
+    border-right: 4px solid #024e76;
+    padding: 12px;
+}
+
+
+.section title h2 {
+    border-right: 4px solid #a293ff;
+    padding: 0 16px;
+    color:#71ff71;
+    height: 100%;
+}
+
+/*About me*/
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.bio {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: center;
+
+}
+
+.bio img {
+    height: 500px;
+    
+}
+
+.bio p {
+    font-size: 32px;
+    text-wrap: wrap;
+    display: flex-start;
+    color:#71ff71;
 }
 /*End about me*/
 
 /*portfolio*/
-.portfolio {
+.span {
+    height:auto;
+    width: auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.flexbox-main {
+    background-image: url("file:///C:/Users/Asa/Desktop/repos/run-buddy/index.html" height: 200px; width: 80%;);
     height: 400px;
-    width: 100%;
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
 }
 
-.portfolio h2 {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-}
-
-.portfolio div img {
-
+.flexbox {
+    flex: 1;
 }
