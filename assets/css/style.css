@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    
 }
 
 section {
@@ -14,7 +13,7 @@ section {
 }
 
 /*Header*/
-header {
+main {
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
@@ -26,11 +25,11 @@ header {
     background-attachment: center;
     background-position:5px;
     height: 110px;
-    color: ##71ff71;
+    color: #71ff71;
     text-shadow: 0 0 10px rgb(169, 207, 169);
 }
 
-header h1 {
+main h1 {
     font-weight: bold;
     font-size: 64px;
     color: ##71ff71;
@@ -38,22 +37,22 @@ header h1 {
     text-shadow: 0 0 10px rgb(169, 207, 169);
 }
 
-header h2 {
+main h2 {
     padding: 20px;
     color:#71ff71;
     font-size: 32px;
     text-shadow: 0 0 10px rgb(169, 207, 169);
 }
 
-header a {
+main a {
     color: #71ff71;
 }
 
-header nav {
+main nav {
     margin: 7px 0;
 }
 
-header nav ul {
+main nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -61,14 +60,14 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a {
+main nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px #00000080;
 }
 
-header nav ul li a:hover {
+main nav ul li a:hover {
     background: #a293ff;
     color: #024e76;
     padding: 5px;
@@ -77,18 +76,35 @@ header nav ul li a:hover {
 }
 /*end header*/
 
+/*aside*/
+aside {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: flex-end; 
+    height: 110px;
+    color: #7173ff;
+    text-shadow: 0 0 10px rgb(169, 207, 169);
+    background-image: url(../images/timp-sunrise.jpg);
+    background-size: cover;
+    background-position-x: 45%;
+    background-position-y: 58%;
+}
+
+aside h2 {
+    padding: 35px 0;
+    font-size:36px;
+}
+
 section {
     padding: 30px;
     background-color: lightgrey;
-    display: flex;
-    justify-content: space-around;
 }
 
 .section-title {
     font-size: 36px;
     color:#71ff71;
     border-right: 4px solid #024e76;
-    padding: 12px;
+    margin: 0 85% 0 0;
 }
 
 
@@ -100,29 +116,24 @@ section {
 }
 
 /*About me*/
-.info {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
 
 .bio {
     height: 500px;
+    background-image: url(../images/JPH\ spider.PNG);
+    background-attachment: center;
+    padding: 6px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: center;
-
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .bio img {
-    height: 500px;
-    
+    height: 450px;
+
 }
 
 .bio p {
     font-size: 32px;
-    text-wrap: wrap;
-    display: flex-start;
     color:#71ff71;
 }
 /*End about me*/
@@ -140,7 +151,6 @@ section {
 }
 
 .flexbox-main {
-    background-image: url("file:///C:/Users/Asa/Desktop/repos/run-buddy/index.html" height: 200px; width: 80%;);
     height: 400px;
     width: 80%;
     justify-content: center;
