@@ -7,10 +7,6 @@ My portfolio is constantly updating as I continue to expand my creativity and cr
 
 file:///C:/Users/Asa/Desktop/repos/Asa-Grace/index.html
 
-## Link to my Github Repository
-
-https://github.com/asa-grace/Asa-Grace
-
 ## Image of progress so far
 
 ![Web capture_9-5-2021_234335_](https://user-images.githubusercontent.com/82672759/117611260-68c8ec00-b120-11eb-8738-34b95085705a.jpeg)
