@@ -102,60 +102,55 @@ section {
 
 .section-title {
     font-size: 36px;
-    color:#71ff71;
+    color: #024e76;
     border-right: 4px solid #024e76;
-    margin: 0 85% 0 0;
+    padding: 7px;
+    height: 100%;
 }
 
 
 .section title h2 {
     border-right: 4px solid #a293ff;
     padding: 0 16px;
-    color:#71ff71;
     height: 100%;
+    color: #024e76;
 }
 
 /*About me*/
 
 .bio {
     height: 500px;
-    background-image: url(../images/JPH\ spider.PNG);
-    background-attachment: center;
-    padding: 6px;
+    background-color: #9e9e99ce;
+    padding: 40px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: stretch;
 }
 
-.bio img {
-    height: 450px;
-
+.bio-info {
+    display: flex;
+    flex-wrap: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.bio p {
+
+div img {
+    height: 500px;
+    flex: 12%;
+    padding: 12px;
+}
+
+.info {
     font-size: 32px;
-    color:#71ff71;
+    color:#1f30c7;
+    flex: 12;
+    flex-wrap: wrap;
 }
 /*End about me*/
 
 /*portfolio*/
-.span {
-    height:auto;
-    width: auto;
-}
 
-.projects {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
+/*end portfolio*/
 
-.flexbox-main {
-    height: 400px;
-    width: 80%;
-    justify-content: center;
-}
-
-.flexbox {
-    flex: 1;
-}
+/*Contact me*/
