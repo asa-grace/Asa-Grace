@@ -14,7 +14,7 @@ section {
 }
 
 /*Header*/
-main {
+header {
     padding: 20px 35px;
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@ main {
     text-shadow: 0 0 10px rgb(169, 207, 169);
 }
 
-main h1 {
+header h1 {
     font-weight: bold;
     font-size: 64px;
     color: ##71ff71;
@@ -38,22 +38,22 @@ main h1 {
     text-shadow: 0 0 10px rgb(169, 207, 169);
 }
 
-main h2 {
+header h2 {
     padding: 20px;
     color:#71ff71;
     font-size: 32px;
     text-shadow: 0 0 10px rgb(169, 207, 169);
 }
 
-main a {
+header a {
     color: #71ff71;
 }
 
-main nav {
+header nav {
     margin: 7px 0;
 }
 
-main nav ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -61,14 +61,14 @@ main nav ul {
     list-style: none;
 }
 
-main nav ul li a {
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px #00000080;
 }
 
-main nav ul li a:hover {
+header nav ul li a:hover {
     background: #a293ff;
     color: #024e76;
     padding: 5px;
@@ -76,26 +76,6 @@ main nav ul li a:hover {
     text-shadow: none;
 }
 /*end header*/
-
-/*aside*/
-aside {
-    padding: 20px 35px;
-    display: flex;
-    justify-content: flex-end; 
-    height: 110px;
-    color: #7173ff;
-    text-shadow: 0 0 10px rgb(169, 207, 169);
-    background-image: url(../images/timp-sunrise.jpg);
-    background-size: cover;
-    background-position-x: 45%;
-    background-position-y: 58%;
-}
-
-aside h2 {
-    padding: 35px 0;
-    font-size:36px;
-}
-/*end aside*/
 
 section {
     padding: 30px;
@@ -154,73 +134,50 @@ div img {
 /*portfolio*/
 .projects {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: stretch;
+    color:#024e76;
+    background-color: #00000080;
+    padding: 15px;
 }
-
-.main-project {
-    width: 80%;
+.flex-container {
+    display: flex;
 
 }
 /*end portfolio*/
 
 /*Contact me*/
-.contacts {
-    height: 500px;
-    background-color: #9e9e99ce;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-}
 
-.contacts h2 {
-    font-weight: bold;
-    font-size: 48px;
-    color: ##71ff71;
-    margin: 0;
-    text-shadow: 0 0 10px rgb(169, 207, 169);
-}
-
-.contacts nav ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    font-size: 20px;
-}
 /*End contact me*/
 
 /*media queries*/
 @media screen and (max-width 980px) {
-    main {
+    header {
         padding-bottom: 0;
         justify-content: center;
         position: relative;
     }
 
-    main h1 {
+    header h1 {
         width: 100%;
         text-align: center;
     } 
 
-    main nav ul {
+    header nav ul {
         margin-top: 15px;
         width: 100%;
         justify-content: center;
     }
 
-    main nav ul li a {
+    header nav ul li a {
         font-size: 20px;
     }
 
-    aside {
+    .subheader {
         padding-bottom: 0;
         justify-content: center;
         position: relative;
     }
 
-    aside h2 {
+    .subheader h2 {
         width: 100%;
         text-align:center;
     }
