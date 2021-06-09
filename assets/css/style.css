@@ -1,16 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
 }
 
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color:#9e9e99ce;
-}
-
-section {
-    background-color: #adcaad;
 }
 
 /*Header*/
@@ -77,71 +73,44 @@ header nav ul li a:hover {
 }
 /*end header*/
 
-section {
-    padding: 30px;
-    background-color: lightgrey;
-}
-
+/* Section Title */
 .section-title {
-    font-size: 36px;
-    color: #024e76;
-    border-right: 4px solid #024e76;
-    padding: 7px;
-    height: 100%;
-}
-
-
-.section title h2 {
-    border-right: 4px solid #a293ff;
-    padding: 0 16px;
-    height: 100%;
-    color: #024e76;
-}
+    font-size: 32px;
+    padding-right: 20px;
+    border-right: 3px solid;
+    margin: 0 auto 35px auto;
+    text-align: left;
+  }
+/* End Section Title*/
 
 /*About me*/
-
-.bio {
-    height: 500px;
-    background-color: #9e9e99ce;
-    padding: 40px;
+.about-me {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
 }
 
-.bio-info {
-    display: flex;
-    flex-wrap: center;
-    justify-content: space-around;
-    align-items: center;
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 18px;
 }
 
-
-div img {
-    height: 500px;
-    flex: 12%;
-    padding: 12px;
+.contrast {
+    filter: contrast(120%);
 }
 
-.info {
-    font-size: 32px;
-    color:#1f30c7;
+.bio {
     text-align: center;
-    margin: 0 auto;
+    font-size:x-large;
+    align-content: center;
 }
+
 /*End about me*/
 
 /*portfolio*/
-.projects {
-    display: flex;
-    color:#024e76;
-    background-color: #00000080;
-    padding: 15px;
-}
-.flex-container {
-    display: flex;
 
-}
 /*end portfolio*/
 
 /*Contact me*/
