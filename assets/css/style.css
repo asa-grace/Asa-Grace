@@ -114,11 +114,8 @@ header nav ul li a:hover {
 
 .info {
     flex: 2 50%;
-    width: 35%;
-    align-items: flex-start;
     margin: 3.5%;
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 24px;
 }
 
 .info p {
@@ -138,8 +135,8 @@ header nav ul li a:hover {
 }
 
 .projects {
-    flex: 2 50%;
-    flex-wrap: wrap;
+    flex: 2 45%;
+    justify-content: space-between;
     margin: 3.5%;
     line-height: 1.2;
 }
@@ -149,17 +146,16 @@ header nav ul li a:hover {
     height: 50%;
 }
 
-.flex-box a {
-    display: flex;
+.flex-box ul li a {
+    flex: 3 25%;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 
 .flex-box img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     width: 45%;
+    height: 50%;
 }
 
 /*end portfolio*/
