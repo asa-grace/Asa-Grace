@@ -6,7 +6,7 @@ This Website uses basic HTML and CSS to showcase my work as a web developer.
 
 ## Link to my portfolio
 
-file:///C:/Users/Asa/Desktop/repos/Asa-Grace/index.html
+https://asa-grace.github.io/Asa-Grace-Portfolio/
 
 ## Image 
 
